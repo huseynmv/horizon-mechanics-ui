@@ -139,7 +139,7 @@ table {
 #navbar{
     padding: 24px 156px
 }
-.menu{
+.navbar{
     gap: 60px;
     padding-left: 140px;
 }
@@ -536,4 +536,212 @@ font-family: 'Roboto';
 font-weight: 400;
 line-height: 20px;
 }
+.mobile-menu{
+    display: none !important;
+}
+.navbar{
+    display:block
+}
+.hero_logo__mobile{
+    display: none;
+}
+.navbar_mobile__logo{
+    display: none;
+}
 
+@media screen and (max-width: 576px) {
+    .about_wrapper{
+        width: 100% !important;
+    }
+    .video_about{
+        display: none !important;
+    }
+    .navbar{
+        display: none !important;
+    }
+    .navbar_desktop__logo{
+        display: none;
+    }
+    #navbar{
+        padding: 8px 12px
+    }
+    .navbar_logo{
+        display: none
+    }
+    .navbar_mobile__logo{
+        display: block;
+    }
+    .mobile-menu{
+        display: block;
+    }
+    .rfq_button{
+        padding: 5px
+    }
+    .hero_logo__desktop{
+        display: none;
+    }
+    .hero_logo__mobile{
+        display: block;
+    }
+    .hero_content{
+        position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+    }
+    .hero_title{
+        text-align: center;
+text-shadow: 2px 5px 14px rgba(161, 161, 161, 0.35);
+font-family: 'Figtree';
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 24px;
+    }
+    .hero_btn{
+        font-family: 'Figtree';
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+padding: 5px 10px;
+/* margin-top: 0px; */
+white-space: nowrap;
+    }
+
+    .video{
+        position: relative;
+        padding: 10px 0px
+    }
+    .partners_img{
+        width: 92px !important;
+        height: 37px !important;
+    }
+    .swiper{
+        margin-top:0px;
+    }
+    #partners{
+        margin-top: 0px;
+    }
+    #about{
+        padding: 0px 12px
+    }
+    .about_title p{
+        font-family: 'Figtree';
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: 32px;
+text-align: center;
+margin-top: 36px;
+    }
+    .video_box{
+        display: none !important;
+    }
+    #services{
+        padding: 0px 12px;
+    }
+    .services_title{
+        font-family: 'Roboto';
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+color: #FFA486;
+margin-top:80px
+    }
+    .services_subtitle{
+        font-family: 'Figtree';
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+margin-top:12px
+    }
+    .service_img{
+        /* width:336px;
+        height:200px */
+    }
+    .service_name{
+        font-family: 'Figtree';
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 30px;
+    }
+    .service_description{
+        font-family: 'Roboto';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 24px;
+    }
+    .service_btn{
+        font-family: 'Figtree';
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+    }
+    #business{
+        padding:0px 12px
+    }
+    .business_title{
+        font-family: 'Figtree';
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px;
+color: #FFA486;
+margin-top: 88px;
+    }
+    .business_number{
+        font-family: 'Figtree';
+font-size: 32px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+    }
+    .business_item__title{
+        font-family: 'Roboto';
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 26px;
+    }
+    .business_item__description{
+        font-family: 'Roboto';
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+    }
+    #values{
+        padding: 0px 12px
+    }
+    .values_section__title{
+        font-family: 'Figtree';
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px;
+color: #FFA486;
+    }
+    .value_item__title{
+        font-family: 'Figtree';
+font-size: 20px;
+font-style: normal;
+font-weight: 600;
+line-height: 32px;
+    }
+    .value_item__description{
+        font-family: 'Roboto';
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+    }
+    .value_wrapper{
+        border-radius: 8px;
+    }
+  }
