@@ -147,7 +147,7 @@ table {
     background: rgba(237, 236, 238, 0.60);
 }
 .email_input{
-    background: rgba(237, 236, 238, 0.60);
+    background: inherit
 }
 .menu_item{
     gap: 14px;
