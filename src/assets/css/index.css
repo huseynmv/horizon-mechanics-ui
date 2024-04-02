@@ -144,10 +144,10 @@ table {
     padding-left: 140px;
 }
 #footer{
-    background-color: #EDECEE99;
+    background: rgba(237, 236, 238, 0.60);
 }
 .email_input{
-    background-color: #EDECEE99;
+    background: rgba(237, 236, 238, 0.60);
 }
 .menu_item{
     gap: 14px;
