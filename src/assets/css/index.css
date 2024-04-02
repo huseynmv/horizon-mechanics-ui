@@ -906,4 +906,7 @@ line-height: 20px;
     .video__mobile{
         display: block!important;
     } */
+    .partners_img {
+        filter: grayscale(0);
+    }
   }
