@@ -909,4 +909,47 @@ line-height: 20px;
     .partners_img {
         filter: grayscale(0);
     }
+    
+      
   }
+  @media screen and (min-width: 993px) and (max-width: 1200px) {
+    .navbar{
+        padding-left: 0px;
+    }
+    .supplier_img{
+        height:100px
+    }
+    .video_box{
+        display: none !important;
+    }
+    .about_wrapper{
+        width: 100%;
+    }
+    .certificates_header_wrapper{
+        margin-top: 150px;
+    }
+    .certificates_header_wrapper{
+        margin-top: 0px;
+    }
+    .certificate_wrapper{
+        position: absolute;
+        bottom: 0%;
+        padding: 0px 80px;
+        /* background-color: #000; */
+        /* border-radius: 24px; */
+    }
+    .certificate_btn{
+        margin-top: -3px;
+        padding: 8px 40px
+    }
+  }
+  @media screen and (min-width: 577px) and (max-width: 993px) {
+    .certificates_header_wrapper{
+        margin-top: 150px;
+    }
+    
+  }
+  @media screen and (min-width: 700px) and (max-width: 993px) {
+    .certificates_header_wrapper{
+        margin-top: 200px;
+    }}
