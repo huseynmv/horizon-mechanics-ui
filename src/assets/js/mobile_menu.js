@@ -284,43 +284,44 @@ document.addEventListener("DOMContentLoaded", function() {
   
     // Function to open the mobile menu
     function openMenu() {
-      if (!isOpen) {
-        var currentPosition = -menuWidth;
-  
-        function animate() {
-          currentPosition += increment;
-          if (currentPosition >= 0) {
-            menu.style.left = "0px";
-            isOpen = true;
-          } else {
-            menu.style.left = currentPosition + "px";
-            requestAnimationFrame(animate);
+        if (!isOpen) {
+          var currentPosition = -menuWidth;
+      
+          function animate() {
+            currentPosition += increment;
+            if (currentPosition >= 0) {
+              menu.style.left = "0px";
+              isOpen = true;
+              document.body.style.overflow = "hidden"; // Disable scrolling on the main page
+            } else {
+              menu.style.left = currentPosition + "px";
+              requestAnimationFrame(animate);
+            }
           }
+      
+          animate();
         }
-  
-        animate();
       }
-    }
-  
-    // Function to close the mobile menu
-    function closeMenu() {
-      if (isOpen) {
-        var currentPosition = 0;
-  
-        function animate() {
-          currentPosition -= increment;
-          if (currentPosition <= -menuWidth) {
-            menu.style.left = -menuWidth + "px";
-            isOpen = false;
-          } else {
-            menu.style.left = currentPosition + "px";
-            requestAnimationFrame(animate);
+      
+      function closeMenu() {
+        if (isOpen) {
+          var currentPosition = 0;
+      
+          function animate() {
+            currentPosition -= increment;
+            if (currentPosition <= -menuWidth) {
+              menu.style.left = -menuWidth + "px";
+              isOpen = false;
+              document.body.style.overflow = ""; // Enable scrolling on the main page
+            } else {
+              menu.style.left = currentPosition + "px";
+              requestAnimationFrame(animate);
+            }
           }
+      
+          animate();
         }
-  
-        animate();
       }
-    }
   
     // Add event listener to the open button
     openBtn.addEventListener("click", openMenu);
