@@ -136,6 +136,41 @@ table {
 }
 /* END RESET CSS */
 
+#mobile_menu{
+    left: -100%;
+    padding: 36px 21px;;
+    height: 100vh;
+    width: 90%;
+    background-color: #0F0E10;
+    position: fixed;
+    z-index: 9999;
+    /* display: none; */
+    display: block;
+}
+.mobile_menu__close{
+    text-align: end;
+    margin-bottom: 42px;
+}
+.menu_item__wrapper a{
+    font-family: 'Roboto';
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 24px;
+color: #fff;
+text-decoration: none;
+margin-bottom: 6px;
+    /* margin-top: 42px; */
+    display: flex;
+    justify-content: space-between;align-items: center;
+    padding: 6px 12px;
+    background-color: #1E1C20;
+}
+
+.menu_item__wrapper{
+    
+}
+
 #navbar{
     padding: 24px 156px
 }
