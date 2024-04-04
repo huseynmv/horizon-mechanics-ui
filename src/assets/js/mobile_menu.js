@@ -330,10 +330,10 @@ document.addEventListener("DOMContentLoaded", function() {
   
     // Add event listener to close menu when a link is clicked
     menu.addEventListener("click", function(event) {
-      if (event.target.tagName === "A") {
-        closeMenu();
-      }
-    });
+        if (event.target.tagName === "A" || event.target.tagName === "P") {
+          closeMenu();
+        }
+      });
   });
   
 
