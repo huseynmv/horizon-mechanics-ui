@@ -863,9 +863,134 @@ margin-bottom: 16px;
     .support_item__wrapper{
         margin-top: 48px;
     }
+    .form_textarea{
+        margin:12px; border-color: #6E6A74; border-radius: 4px;color: #6E6A74;
+         font-size: 14px;
+            font-family: Roboto;
+            font-weight: 400;
+            line-height: 20px;
+            word-wrap: break-word"
+    }
+    .input_item{
+        display: flex;
+    }
+        
 /* END CONTACT PAGE */
 
 @media screen and (max-width: 992px) {
+    .contactpage_title{
+        color: #FF6835;
+            font-size: 24px;
+            font-family: 'Figtree';
+            font-weight: 500;
+            line-height: 50px;
+            word-wrap: break-word
+    }
+    .contactpage_subtitle{
+        color: #4A4551;
+            font-size: 11px;
+            font-family: 'Roboto';
+            font-weight: 400;
+            line-height: 18px;
+    }
+    .contact_form__title{
+        color: #1E1C20;
+            font-size: 18px;
+            font-family: 'Figtree';
+            font-weight: 500;
+            line-height: 26px;
+    }
+    .subject_label{
+        color: #6E6A74;
+            font-size: 13px;
+            font-family: 'Roboto';
+            font-weight: 500;
+            line-height: 16px;
+    }
+    .contact_input{
+        color: #6E6A74;
+            font-size: 12px;
+            font-family: 'Roboto';
+            font-weight: 400;
+            line-height: 20px;
+    }
+    .subject{
+        color: #2C2931;
+            font-size: 14px;
+            font-family: 'Roboto';
+            font-weight: 500;
+            line-height: 20px;
+    }
+    .quick_support{
+        color: #1E1C20;
+            font-size: 18px;
+            font-family: 'Figtree';
+            font-weight: 500;
+            line-height: 26px;
+    }
+    .quick_support__subtitle{
+        color: #2C2931;
+            font-size: 11px;
+            font-family: 'Roboto';
+            font-weight: 400;
+            line-height: 18px;
+            word-wrap: break-word
+    }
+    .support_item__title{
+        color: #2C2931;
+            font-size: 14px;
+            font-family: 'Roboto';
+            font-weight: 500;
+            line-height: 20px;
+    }
+    .support_item__subtitle{
+        color: #3B3741;
+            font-size: 11px;
+            font-family: 'Roboto';
+            font-weight: 400;
+            line-height: 18px;
+            word-wrap: break-word
+    }
+    .support_item__wrapper{
+        margin-top:24px
+    }
+    #support{
+        padding: 0px
+    }
+    .send_btn{
+        margin-top:0px
+    }
+    .contact_form__subtitle{
+        color: #2C2931;
+            font-size: 11px;
+            font-family: 'Roboto';
+            font-weight: 400;
+            line-height: 18px;
+            word-wrap: break-word
+    }
+    .input_item {
+            flex: 1 0 33%;
+            /* Each item takes up 50% of the container width */
+        }
+        .checkbox_wrapper{
+            flex-wrap: wrap
+            ;
+        }
+#support{
+    background-color: inherit;
+    border:none
+}
+    .form_textarea{
+        width: 70%;
+        height: 80px;
+    }
+    
+    .form{
+        margin-top:14px
+    }
+    .contact_form__box{
+        display: none;
+    }
     
     .about_wrapper{
         width: 100% !important;

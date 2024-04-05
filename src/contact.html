@@ -144,10 +144,10 @@
                 </div>
             </div>
             <div class="row contact_form__wrapper">
-                <div class="col-6">
+                <div class="col-6 contact_form__box">
                     <img src="./assets/images/contact.png" class="contact_form__img" alt="">
                 </div>
-                <div class="col-6">
+                <div class="col-lg-6 col-md-6 col-sm-12">
                     <div class="row">
                         <div class="col-12">
                             <p class="contact_form__title">
@@ -161,28 +161,28 @@
                         </div>
                     </div>
                     <form action="" class="row form">
-                        <div class="col-6">
+                        <div class="col-lg-6 col-sm-12">
                             <label class="contact_form__label" for="name">
                                 <p>Full name</p>
                             </label>
                             <input type="text" class="contact_input d-block" id="name" class="d-block"
                                 placeholder="Your Full Name">
                         </div>
-                        <div class="col-6">
+                        <div class="col-lg-6 col-sm-12">
                             <label class="contact_form__label" for="company">
                                 <p>Company</p>
                             </label>
                             <input type="text" class="contact_input d-block" id="company" class="d-block"
                                 placeholder="Your Company Name">
                         </div>
-                        <div class="col-6">
+                        <div class="col-lg-6 col-sm-12">
                             <label class="contact_form__label" for="email">
                                 <p>Email Address</p>
                             </label>
                             <input type="text" class="contact_input d-block" id="email" class="d-block"
                                 placeholder="Your Company Name">
                         </div>
-                        <div class="col-6">
+                        <div class="col-lg-6 col-sm-12">
                             <label class="contact_form__label" for="number">
                                 <p>Phone Number</p>
                             </label>
@@ -190,51 +190,49 @@
                                 placeholder="Your Company Name">
                         </div>
                         <p class="subject">Select Subject?</p>
-                        <div class="checkbox_wrapper">
-                            <div>
-                                <input type="checkbox" class="custom_checkbox" name="aog" id="checkbox1"
-                                    onclick="updateCheckboxes(this)">
-                                <label class="subject_label" for="aog">
-                                    <p>AOG</p>
-                                </label>
-                            </div>
-                            <div>
-                                <input type="checkbox" class="custom_checkbox" name="spare" id="checkbox2"
-                                    onclick="updateCheckboxes(this)">
-                                <label class="subject_label" for="spare">
-                                    <p>Spare Parts</p>
-                                </label>
-                            </div>
-                            <div>
-                                <input type="checkbox" class="custom_checkbox" name="exchange" id="checkbox3"
-                                    onclick="updateCheckboxes(this)">
-                                <label class="subject_label" for="exchange">
-                                    <p>Exchanges</p>
-                                </label>
-                            </div>
-                            <div>
-                                <input type="checkbox" class="custom_checkbox" name="repair" id="checkbox4"
-                                    onclick="updateCheckboxes(this)">
-                                <label class="subject_label" for="repair">
-                                    <p>Repaint Management</p>
-                                </label>
-                            </div>
-                            <div>
-                                <input type="checkbox" class="custom_checkbox" name="priority" id="checkbox5"
-                                    onclick="updateCheckboxes(this)">
-                                <label class="subject_label" for="priority">
-                                    <p>Priority AOG</p>
-                                </label>
-                            </div>
+                        <div class="row">
+                            <div class="checkbox_wrapper">
+                                <div class="input_item">
+                                    <input type="checkbox" class="custom_checkbox" name="aog" id="checkbox1"
+                                        onclick="updateCheckboxes(this)">
+                                    <label class="subject_label" for="aog">
+                                        <p>AOG</p>
+                                    </label>
+                                </div>
+                                <div class="input_item">
+                                    <input type="checkbox" class="custom_checkbox" name="spare" id="checkbox2"
+                                        onclick="updateCheckboxes(this)">
+                                    <label class="subject_label" for="spare">
+                                        <p>Spare Parts</p>
+                                    </label>
+                                </div>
+                                <div class="input_item">
+                                    <input type="checkbox" class="custom_checkbox" name="exchange" id="checkbox3"
+                                        onclick="updateCheckboxes(this)">
+                                    <label class="subject_label" for="exchange">
+                                        <p>Exchanges</p>
+                                    </label>
+                                </div>
+                                <div class="input_item">
+                                    <input type="checkbox" class="custom_checkbox" name="repair" id="checkbox4"
+                                        onclick="updateCheckboxes(this)">
+                                    <label class="subject_label" for="repair">
+                                        <p>Repaint Management</p>
+                                    </label>
+                                </div>
+                                <div class="input_item">
+                                    <input type="checkbox" class="custom_checkbox" name="priority" id="checkbox5"
+                                        onclick="updateCheckboxes(this)">
+                                    <label class="subject_label" for="priority">
+                                        <p>Priority AOG</p>
+                                    </label>
+                                </div>
 
+                            </div>
                         </div>
                         <label for="subject_label" class="subject_label" style="margin-top: 24px;">Message</label>
-                        <textarea name="" style="margin:12px; border-color: #6E6A74; border-radius: 4px;color: #6E6A74;
-font-size: 14px;
-font-family: Roboto;
-font-weight: 400;
-line-height: 20px;
-word-wrap: break-word" placeholder="Write your message..." id="" cols="30" rows="8"></textarea>
+                        <textarea name="" class="form_textarea" placeholder="Write your message..." id="" cols="30"
+                            rows="8"></textarea>
                         <div class="send_btn__wrapper"><button class="send_btn">Send message</button></div>
                     </form>
 
@@ -255,21 +253,21 @@ word-wrap: break-word" placeholder="Write your message..." id="" cols="30" rows=
                 </div>
             </div>
             <div class="row">
-                <div class="col-3">
+                <div class="col-6 col-lg-3">
                     <div class="support_item__wrapper">
                         <img src="./assets/images/mail.svg" alt="">
                         <p class="support_item__title">Our email address</p>
                         <p class="support_item__subtitle">sales@horizonmechanics.com</p>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-6 col-lg-3">
                     <div class="support_item__wrapper">
                         <img src="./assets/images/mail.svg" alt="">
                         <p class="support_item__title">Our email address</p>
                         <p class="support_item__subtitle">sales@horizonmechanics.com</p>
                     </div>
                 </div>
-                <div class="col-3">
+                <div class="col-6 col-lg-3">
                     <div class="support_item__wrapper">
                         <img src="./assets/images/mail.svg" alt="">
                         <p class="support_item__title">Our email address</p>
