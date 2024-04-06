@@ -33,10 +33,11 @@
             <img src="./assets/images/x-close.svg" class="menu_close__btn" alt="">
         </div>
         <div class="menu_item__wrapper">
-            <a href="#about">
+            <a href="./index.html#aboutUs">
                 <p>About us</p>
                 <img src="./assets/images/arrow-narrow-right.svg" class="menu_item__img" alt="">
             </a>
+
         </div>
         <div class="menu_item__wrapper">
             <a href="#services">
@@ -45,13 +46,12 @@
             </a>
         </div>
         <div class="menu_item__wrapper">
-
-            <a href="./contact.html">
+            <a href="#footer">
                 <p>Contact us</p>
                 <img src="./assets/images/arrow-narrow-right.svg" class="menu_item__img" alt="">
             </a>
-
         </div>
+
         <div class="menu_item__wrapper">
             <a href="#footer">
                 <p>Request a Quote</p>
@@ -78,7 +78,9 @@
                         <div class="navbar d-flex justify-content-between align-items-center gap-60">
                             <div class="menu_item">
                                 <div class="d-flex align-items-center">
-                                    <p class="menu_item__text">About us</p>
+                                    <a href="./index.html#aboutUs">
+                                        <p class="menu_item__text">About us</p>
+                                    </a>
                                     <img src="./assets/images/down_icon.svg" alt="">
                                 </div>
 
@@ -171,6 +173,7 @@
     <section id="partners" class="section w-100">
         <div class="container-fluid">
             <div class="row">
+                <div id="aboutUs"></div>
                 <div class="col-12 mySwiper swiper">
                     <div class="swiper-wrapper">
                         <img class="partners_img swiper-slide" src="./assets/images/partners_light.svg" alt="">
@@ -188,47 +191,49 @@
                 </div>
             </div>
         </div>
+
     </section>
-    <section class="section w-100" id="about">
+    <section id="about" class="section w-100">
         <div class="container-fuild">
             <div class="row w-100">
-                <div class="about_title">
-                    <p>About our company</p>
+                <div class="col-12 about_title">
+                    <p class="">ABOUT OUR COMPANY</p>
                 </div>
-                <div class="col-6">
-                    <div class="about_description">
-                        <p style="    color: #3B3741;
-        font-size: 16px;
-        font-family: 'Roboto';
-        font-weight: 400;
-        line-height: 24px;">Horizon Mechanics LLC-FZ emerges as a trusted partner in the aviation supply chain, rooted
-                            in
-                            the
-                            strategic hub of
-                            MeydanFree Zone, Dubai, UAE. <br> <br> Our expertise covers the sales of spare parts, AOG,
-                            exchange, repair and maintenance, Diagnostics and sourcing services,
-                            aligning with our mission to connect and establish enduring relationships with leading
-                            aviation
-                            OEM manufacturers and
-                            suppliers worldwide.</p>
-                    </div>
-                </div>
-                <div class="col-6 pe-0 pe-sm-1 about_wrapper">
 
-                    <div class="about_description">
-                        <p>Our service initiatives prioritize consistent and dynamic interaction, aiming to fully
-                            comprehend our clients' unique
-                            needs. Through mutual involvement, we pursue continuous improvement to reach common goals
-                            and objectives. <br> <br> Our service initiatives prioritize consistent and dynamic
-                            interaction, aiming to fully comprehend our clients' unique
-                            needs. Through mutual involvement, we pursue continuous improvement to reach common goals
-                            and objectives.</p>
-                    </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6 about_description">
+                    <p class="about_description">Horizon Mechanics LLC-FZ emerges as a trusted partner in the aviation
+                        supply chain, rooted in the strategic hub of
+                        MeydanFree Zone, Dubai, UAE.</p><br>
+                    <p class="about_description">Our expertise covers the sales of spare parts, AOG, exchange, repair
+                        and maintenance, Diagnostics and sourcing services,
+                        aligning with our mission to connect and establish enduring relationships with leading aviation
+                        OEM manufacturers and
+                        suppliers worldwide.</p>
+                </div>
+                <div class="col-12 col-md-6 about_description">
+                    <p class="about_description">
+                        Our service initiatives prioritize consistent and dynamic interaction, aiming to fully
+                        comprehend our clients' unique
+                        needs. Through mutual involvement, we pursue continuous improvement to reach common goals and
+                        objectives.
+                    </p><br>
+                    <p class="about_description">
+                        Horizon Mechanics LLC-FZ is persistent in its commitment to quality and service, preferring a
+                        personalized approach to
+                        satisfy each client's unique needs. This personalized strategy ensures the highest level of
+                        performance, efficiency, and
+                        reliability in our products and services. We are dedicated to exploring innovative opportunities
+                        that enhance our
+                        service offering and industry presence.
+                    </p>
                 </div>
             </div>
             <div class="row w-100">
-                <div class="col-12">
-                    <img style="width: 100%; margin-top: 40px;" src="./assets/images/Rectangle 3844.png" alt="">
+                <div class="col-12 video_about">
+                    <img style="width: 100%; margin-top: 40px; min-height: 330px"
+                        src="./assets/images/Rectangle 3844.png" alt="">
                 </div>
             </div>
         </div>
@@ -469,9 +474,10 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 px-0 certificates_bg">
-                    <img src="./assets/images/footer_img.svg" loading="eager" class="certificates_bg__image" alt="">
-                    <img src="./assets/images/Background.svg" loading="eager" class="certificates_bg__image__mobile"
+                    <img src="./assets/images/certificate-bg-desktop.jpg" loading="eager" class="certificates_bg__image"
                         alt="">
+                    <img src="./assets/images/about-bg-mobile.png" loading="eager"
+                        class="certificates_bg__image__mobile" alt="">
 
                 </div>
             </div>
@@ -539,7 +545,9 @@
                         Quick links
                     </p>
                     <div class="quick_links">
-                        <p>About us</p>
+                        <a href="./index.html#aboutUs">
+                            <p>About us</p>
+                        </a>
                         <p>Business Ethics</p>
                         <p>Our Values</p>
                         <p>Partners</p>
