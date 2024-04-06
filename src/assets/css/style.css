@@ -748,7 +748,9 @@ margin-bottom: 16px;
         font-family: 'Roboto';
         font-weight: 400;
         line-height: 20px;
-        word-wrap: break-word
+        word-wrap: break-word;
+        margin-left: 4px;
+
 }
 
     .custom_checkbox {
@@ -906,6 +908,8 @@ margin-bottom: 16px;
             font-family: 'Roboto';
             font-weight: 500;
             line-height: 16px;
+                    margin-left: 4px;
+                        margin-top: 3px;
     }
     .contact_input{
         color: #6E6A74;
@@ -970,6 +974,7 @@ margin-bottom: 16px;
     }
     .input_item {
             flex: 1 0 33%;
+            margin-top:4px
             /* Each item takes up 50% of the container width */
         }
         .checkbox_wrapper{
