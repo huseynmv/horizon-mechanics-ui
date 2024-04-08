@@ -457,7 +457,7 @@ color: #444444;
     padding: 100px 156px;
 }
 .values_section__title{
-    color: #2C2931;
+    color: #FF6835;
 font-size: 38px;
 font-family: 'Figtree';
 font-weight: 600;
@@ -510,19 +510,22 @@ line-height: 50px;
     position: relative;
 } */
 .certificates_header__title{
+    text-align: center;
     color: white;
-font-size: 48px;
+font-size: 44px;
 font-family: 'Figtree';
 font-weight: 700;
 line-height: 62px;
 }
 .certificates_header__subtitle{
+    text-align: center;
     color: white;
-font-size: 24px;
+font-size: 22px;
 font-family: 'Roboto';
 font-weight: 500;
 line-height: 44px;
 margin-top: 12px;
+padding: 0px 270px;
 }
 #certificates{
     margin-top: 80px;
@@ -536,8 +539,9 @@ margin-top: 12px;
     /* transform: translate(-50%, -50%); */
 }
 .certificate_btn{
-    padding: 20px 40px;
-    background-color: #E71420;
+    text-align: center;
+    padding: 10px 180px;
+    background-color: #FF6835;
     color: white;
 font-size: 20px;
 font-family: Figtree;
@@ -548,9 +552,11 @@ border-radius: 2px;
 margin-top: 24px;
 }
 .certificate_wrapper{
-    position: absolute;
+    display: flex;
+        gap: 20px;
+    /* position: absolute;
     bottom: 0%;
-    padding: 40px 156px;
+    padding: 40px 156px; */
     /* background-color: #000; */
     /* border-radius: 24px; */
 }
@@ -559,6 +565,7 @@ margin-top: 24px;
     gap: 24px;
 }
 .certificate_wrapper__title{
+    width: 100%;
     color: white;
 font-size: 38px;
 font-family: 'Figtree';
@@ -901,8 +908,68 @@ margin-bottom: 16px;
     margin-top:80px
 }
 /*END CERTIFICATE PAGE */
+.contact_item__header{
+    color: #2C2931;
+        font-size: 16px;
+        font-family: Figtree;
+        font-weight: 500;
+        line-height: 20px;
+}
+.phone_number{
+    color: #2C2931;
+        font-size: 14px;
+        font-family: Roboto;
+        font-weight: 400;
+        line-height: 20px;
+        margin-top: 12px;
+        white-space: nowrap;
+}
+.address{
+    color: #2C2931;
+        font-size: 14px;
+        font-family: Roboto;
+        font-weight: 400;
+        line-height: 20px;
+        margin-top: 12px;
+        white-space: nowrap;
+}
+.mailto{
+    color: #2C2931;
+        font-size: 14px;
+        font-family: Roboto;
+        font-weight: 400;
+        line-height: 20px;
+        margin-top: 12px;
+}
+.contact_wrapper{
+    display: flex;
+        margin-top: 44px;
+        gap: 54px;
+}
+@media screen and (max-width: 576px) {
+    .certificate_wrapper{
+        gap: 12px;
+    }
 
+}
 @media screen and (max-width: 992px) {
+    .contact_wrapper{
+        display: block;
+        text-align: left;
+    }
+    .contact_item__header:nth-child(1){
+        margin-top: 16px
+    }
+    .interested{
+        text-align: left;
+
+    }
+    .address{
+        padding-bottom: 16px;
+    }
+    .mailto{
+        text-align: left;
+    }
     .page_description {
             font-family: 'Roboto';
                 font-size: 12px;
@@ -1216,7 +1283,7 @@ font-size: 20px;
 font-style: normal;
 font-weight: 600;
 line-height: 32px;
-color: #FFA486;
+color: #FF6835;
 margin-top: 80px;
     }
     .value_item__title{
@@ -1240,8 +1307,11 @@ line-height: 20px;
         display: none;
     }
     .certificate_wrapper{
-        display: none;
+        margin-top: 24px !important;
     }
+        .certificate_wrapper__title {
+            display: none;
+        }
     .certificates_header__title{
         font-family: 'Figtree';
         font-size: 24px;
@@ -1294,8 +1364,8 @@ line-height: 20px;
     .certificate_img{
         padding: 0px 8.5px;
         border-right: 1px solid #fff;
-        width: 62px;
-        height: 62px;
+        width: 100px;
+        height: 100px;
     }
     .certificate_img:last-child {
         border-right: none;
@@ -1350,10 +1420,26 @@ line-height: 20px;
     .partners_img {
         filter: grayscale(0);
     }
-    
+        .certificate_item__wrapper {
+            display: flex;
+            justify-content: center;
+            margin: 0px !important;
+            background: none !important;
+            border-radius: 0!important;
+            border: none !important;
+            padding: 0px !important
+            /* background-color: #000; */
+            /* border-radius: 24px; */
+        }
+        .certificate_section__wrapper{
+            margin-top: 48px !important;
+        }
       
   }
   @media screen and (min-width: 993px) and (max-width: 1200px) {
+    .certificates_header__subtitle{
+        padding: 0px !important;
+    }
     .navbar{
         padding-left: 0px;
     }
@@ -1372,27 +1458,48 @@ line-height: 20px;
     .certificates_header_wrapper{
         margin-top: 0px;
     }
-    .certificate_wrapper{
-        position: absolute;
-        bottom: 0%;
-        padding: 0px 80px;
-        /* background-color: #000; */
-        /* border-radius: 24px; */
-    }
     .certificate_btn{
         margin-top: -3px;
         padding: 8px 40px
     }
-  }
-  @media screen and (min-width: 577px) and (max-width: 993px) {
-    .certificates_header_wrapper{
-        margin-top: 150px;
+    .certificate_item__wrapper{
+        display: none !important;
     }
-    
   }
-  @media screen and (min-width: 700px) and (max-width: 993px) {
-    .certificates_header_wrapper{
-        margin-top: 200px;
-    }}
+  @media screen and (min-width: 777px) and (max-width: 993px) {
+    
+    .certificates_header__title{
+        margin-top: 200px !important;
+    }
+    .certificates_header__subtitle{
+        padding: 0px 100px !important;
+    }
+  }
 
 
+        .certificate_item__wrapper {
+            display: flex;
+            justify-content: center;
+            margin: 0px 220px;
+            background: rgba(93.49, 93.49, 93.49, 0.50);
+            border-radius: 12px;
+            border: 1px #6E6A74 solid;
+            padding: 10px 60px;
+            /* background-color: #000; */
+            /* border-radius: 24px; */
+        }
+        .certificate_section__wrapper{
+        display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 24px;
+        }
+
+                @media screen and (min-width: 577px) and (max-width: 768px) {
+                    .certificate_section__wrapper{
+                        margin-top:200px !important
+                    }
+        
+                }
+                
