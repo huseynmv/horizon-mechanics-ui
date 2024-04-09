@@ -981,6 +981,9 @@ margin-bottom: 16px;
 
 }
 @media screen and (max-width: 992px) {
+    .business_subtitle{
+        display: none;
+    }
     .suppliers_section__title{
         color: #FF6835;
             font-size: 20px;
@@ -991,9 +994,9 @@ margin-bottom: 16px;
             padding: 0px;
             margin-top: 48px;
     }
-    /* br {
+   .business_title br {
             display: none;
-        } */
+        }
     .business_wrapper {
 
             border-bottom: none;
@@ -1300,7 +1303,7 @@ font-style: normal;
 font-weight: 600;
 line-height: 32px;
 color: #FFA486;
-margin-top: 88px;
+margin-top: 44px;
     }
     .business_number{
         font-family: 'Figtree';
