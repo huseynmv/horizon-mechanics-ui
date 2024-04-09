@@ -308,7 +308,7 @@ margin-bottom: 6px;
         line-height: 32px;
         color: #FFF;
         border-radius: 2px;
-        background-color: #000;
+        background-color: #4A4551;
         margin-top: 21px;
         transition: all 1.5s ease;
         border: none;
@@ -400,7 +400,7 @@ color: #444444;
         line-height: 24px;
         border-radius: 2px;
         border: none;
-        background-color: #000;
+        background-color: #4A4551;
         padding: 10px;
         transition: all 1s ease;
 }
@@ -410,19 +410,42 @@ color: #444444;
 
 #business{
     padding: 80px 156px;
+    padding-right: 0px;
 }
-
+.business_img{
+    width: 100%;
+    padding-left: 100px;
+}
+.business_item__subtitle{
+color: #FF6835;
+    font-size: 14px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    line-height: 20px;
+    word-wrap: break-word
+}
 .business_title{
     color: #FF6835;
-        font-size: 38px;
+        font-size: 32px;
         font-family: Figtree;
         font-weight: 600;
         text-transform: uppercase;
         line-height: 50px;
 }
+.business_subtitle{
+    color: #2C2931;
+        font-size: 22px;
+        font-family: Roboto;
+        font-weight: 400;
+        line-height: 32px;
+        word-wrap: break-word;
+        padding-right: 30px;
+}
 .business_wrapper{
     margin-top: 40px;
     display: flex;
+    border-bottom: 1px solid #C1C4CF;
+    padding-bottom: 15px;
 }
 .business_number{
     color: #FFC3AE;
@@ -430,14 +453,17 @@ color: #444444;
         font-family: 'Figtree';
         font-weight: 500;
         line-height: 26px;
+        display: flex;
+        justify-content: center;align-items: center;
 
 }
 .business_item__title{
     color: #1E1C20;
-        font-size: 20px;
+        font-size: 24px;
         font-family: 'Roboto';
         font-weight: 500;
         line-height: 32px;
+        word-wrap: break-word
 }
 .business_item__description{
     color: #4A4551;
@@ -449,9 +475,11 @@ color: #444444;
 .business_item__wrapper{
             margin-left: 14px;
 }
-#business .row > :nth-last-child(-n+2) {
-    margin-left: auto;
-    margin-right: auto;
+#business .row > .row > .row > .business_wrapper :nth-last-child(-n+3) {
+    border: none;
+}
+.border-none{
+    border: none;
 }
 #values{
     padding: 100px 156px;
@@ -953,6 +981,27 @@ margin-bottom: 16px;
 
 }
 @media screen and (max-width: 992px) {
+    .suppliers_section__title{
+        color: #FF6835;
+            font-size: 20px;
+            font-family: Figtree;
+            font-weight: 600;
+            text-transform: uppercase;
+            line-height: 32px;
+            padding: 0px;
+            margin-top: 48px;
+    }
+    br {
+            display: none;
+        }
+    .business_wrapper {
+
+            border-bottom: none;
+        
+        }
+    .business_img{
+        display: none;
+    }
     .contact_wrapper{
         display: block;
         text-align: left;
@@ -1303,9 +1352,9 @@ line-height: 20px;
     .value_wrapper{
         border-radius: 8px;
     }
-    #suppliers{
+    /* #suppliers{
         display: none;
-    }
+    } */
     .certificate_wrapper{
         margin-top: 24px !important;
     }
@@ -1436,7 +1485,13 @@ line-height: 20px;
         }
       
   }
+        @media screen and (min-width: 1200px) and (max-width: 1390px) {
+            .certificate_item__wrapper{
+                display: none !important;
+            }
+        }
   @media screen and (min-width: 993px) and (max-width: 1200px) {
+   
     .certificates_header__subtitle{
         padding: 0px !important;
     }
