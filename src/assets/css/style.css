@@ -516,6 +516,15 @@ font-family: 'Figtree';
 font-weight: 600;
 line-height: 32px;
 }
+.certificatepage_item__wrapper{
+    /* margin-top:80px; */
+    position: absolute;
+    top: 50%;
+        left: 50%;
+        transform: translate(-50%, 200%);
+        display: flex;
+        gap: 44px;
+}
 
 .value_item__description{
     color: #6E6A74;
@@ -862,7 +871,7 @@ margin-bottom: 16px;
             line-height: 24px;
             word-wrap: break-word;
             background-color: #000;
-            padding: 10px 89px;
+            padding: 10px 78px;
             border-radius: 4px;
             border: none;
             margin-top: 24px;
@@ -985,6 +994,12 @@ margin-bottom: 16px;
         margin-top: 44px;
         gap: 54px;
 }
+.certificatepage_img__middle {
+    border-left: 1px solid #B7B5B9;
+    border-right: 1px solid #B7B5B9;
+    padding: 0px 44px;
+
+}
 @media screen and (max-width: 576px) {
     .certificate_wrapper{
         gap: 12px;
@@ -992,6 +1007,27 @@ margin-bottom: 16px;
 
 }
 @media screen and (max-width: 992px) {
+    .certificatepage_img{
+        width: 62px;
+        height: 62px;
+    }
+    
+    .certificatepage_img__middle{
+        border-left: 1px solid #B7B5B9;
+            border-right: 1px solid #B7B5B9;
+            padding: 0px 8px;
+            width: 62px;
+                height: 62px;
+    }
+        .certificatepage_item__wrapper {
+            /* margin-top:80px; */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, 250%);
+            display: flex;
+            gap: 8px;
+        }
     .business_item__subtitle {
             color: #FF6835;
                 font-size: 12px;
