@@ -1482,6 +1482,8 @@ line-height: 20px;
     }
     .footer_logo{
         margin-bottom: 24px;
+        width: 83px;
+        height: 86px;
     }
     .email_input__wrapper___mobile{
         position: relative
