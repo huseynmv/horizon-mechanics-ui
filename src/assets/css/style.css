@@ -333,23 +333,27 @@ margin-bottom: 6px;
     color: #FF6835;
         font-size: 38px;
         font-family: 'Figtree';
-        font-weight: 500;
+        font-weight: 600;
         line-height: 50px;
         margin-bottom: 20px;
+        text-align: center;
 }
 .about_description p{
     color: #3B3741;
-        font-size: 16px;
-        font-family: 'Roboto';
+        font-size: 19px;
+        font-family: Roboto;
         font-weight: 400;
-        line-height: 24px;
+        line-height: 26px;
+        word-wrap: break-word;
+        text-align: center;
+        padding: 0px 50px;
 }
 .video_about{
     
     /* height: 377px; */
 }
 #services{
-    padding: 80px 156px;
+    padding: 40px 156px;
 }
 /* .video__mobile{
     display: none;
@@ -377,7 +381,7 @@ color: #444444;
     margin-top: 40px;
 }
 .service_name{
-    text-align: center;
+    /* text-align: center; */
     color: #0F0E10;
         font-size: 24px;
         font-family: 'Figtree';
@@ -394,11 +398,11 @@ color: #444444;
 
 .service_btn{
     color: white;
-        font-size: 14px;
+        font-size: 16px;
         font-family: Figtree;
         font-weight: 500;
         line-height: 24px;
-        border-radius: 2px;
+        word-wrap: break-word;
         border: none;
         background-color: #4A4551;
         padding: 10px;
@@ -415,6 +419,7 @@ color: #444444;
 .business_img{
     width: 100%;
     padding-left: 100px;
+    height: 100%;
 }
 .business_item__subtitle{
 color: #FF6835;
@@ -422,7 +427,8 @@ color: #FF6835;
     font-family: 'Roboto';
     font-weight: 500;
     line-height: 20px;
-    word-wrap: break-word
+    word-wrap: break-word;
+    margin-top: 2px;
 }
 .business_title{
     color: #FF6835;
@@ -434,15 +440,15 @@ color: #FF6835;
 }
 .business_subtitle{
     color: #2C2931;
-        font-size: 22px;
-        font-family: Roboto;
+        font-size: 20px;
+        font-family: Figtree;
         font-weight: 400;
-        line-height: 32px;
+        line-height: 30px;
         word-wrap: break-word;
-        padding-right: 30px;
+        padding-right: 130px;
 }
 .business_wrapper{
-    margin-top: 40px;
+    margin-top: 32px;
     display: flex;
     border-bottom: 1px solid #C1C4CF;
     padding-bottom: 15px;
@@ -467,10 +473,12 @@ color: #FF6835;
 }
 .business_item__description{
     color: #4A4551;
-        font-size: 14px;
-        font-family: 'Roboto';
+        font-size: 16px;
+        font-family: Roboto;
         font-weight: 400;
-        line-height: 20px;
+        line-height: 24px;
+        word-wrap: break-word;
+        margin-top: 4px;
 }
 .business_item__wrapper{
             margin-left: 14px;
@@ -482,7 +490,7 @@ color: #FF6835;
     border: none;
 }
 #values{
-    padding: 100px 156px;
+    padding: 60px 156px;
 }
 .values_section__title{
     color: #FF6835;
@@ -517,8 +525,8 @@ font-weight: 400;
 line-height: 24px;
 }
 .suppliers_section__title{
-    padding: 80px 156px;
-    padding-bottom: 40px;
+    padding: 60px 156px;
+    padding-bottom: 10px;
 }
 .suppliers_section__title{
     color: #FF6835;
@@ -538,25 +546,26 @@ line-height: 50px;
     position: relative;
 } */
 .certificates_header__title{
-    text-align: center;
     color: white;
-font-size: 44px;
-font-family: 'Figtree';
-font-weight: 700;
-line-height: 62px;
+        font-size: 48px;
+        font-family: Figtree;
+        font-weight: 700;
+        line-height: 62px;
+        word-wrap: break-word
 }
 .certificates_header__subtitle{
+color: white;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 44px;
+    word-wrap: break-word;
     text-align: center;
-    color: white;
-font-size: 22px;
-font-family: 'Roboto';
-font-weight: 500;
-line-height: 44px;
 margin-top: 12px;
 padding: 0px 270px;
 }
 #certificates{
-    margin-top: 80px;
+    margin-top: 152px;
     position: relative;
 }
 .certificates_header_wrapper{
@@ -571,10 +580,10 @@ padding: 0px 270px;
     padding: 10px 180px;
     background-color: #FF6835;
     color: white;
-font-size: 20px;
-font-family: Figtree;
-font-weight: 500;
-line-height: 32px;
+        font-size: 24px;
+        font-family: Figtree;
+        font-weight: 600;
+        line-height: 32px;
 border: none;
 border-radius: 2px;
 margin-top: 24px;
@@ -595,10 +604,10 @@ margin-top: 24px;
 .certificate_wrapper__title{
     width: 100%;
     color: white;
-font-size: 38px;
-font-family: 'Figtree';
-font-weight: 600;
-line-height: 50px;
+        font-size: 38px;
+        font-family: Figtree;
+        font-weight: 600;
+        line-height: 50px;
 }
 #footer{
     padding:55px 140px
@@ -613,7 +622,9 @@ line-height: 50px;
     gap: 14px;
 }
 .footer_logo{
-    margin-bottom:54px
+    margin-bottom:54px;
+    width: 166px;
+    height: 168px;
 }
 .email_input::placeholder{
     color: #2C2931;
@@ -648,11 +659,11 @@ outline: none;
 }
 
 .footer_header{
-    color: #2C2931;
-font-size: 16px;
-font-family: 'Figtree';
-font-weight: 500;
-line-height: 24px;
+color: #2C2931;
+    font-size: 16px;
+    font-family: Figtree;
+    font-weight: 500;
+    line-height: 24px;
 }
 .quick_links p,
 .services_links p,
@@ -981,6 +992,25 @@ margin-bottom: 16px;
 
 }
 @media screen and (max-width: 992px) {
+    .business_item__subtitle {
+            color: #FF6835;
+                font-size: 12px;
+                font-family: Roboto;
+                font-weight: 500;
+                line-height: 20px;
+            margin-top: 2px;
+        }
+    .about_description p {
+            
+            padding: 0px;
+            text-align: unset;
+            color: #4A4551;
+                font-size: 14px;
+                font-family: Roboto;
+                font-weight: 400;
+                line-height: 20px;
+                word-wrap: break-word
+        }
     .business_subtitle{
         display: none;
     }
@@ -997,11 +1027,11 @@ margin-bottom: 16px;
    .business_title br {
             display: none;
         }
-    .business_wrapper {
+    /* .business_wrapper {
 
             border-bottom: none;
         
-        }
+        } */
     .business_img{
         display: none;
     }
@@ -1202,7 +1232,7 @@ margin-bottom: 16px;
         text-align: center;
 text-shadow: 2px 5px 14px rgba(161, 161, 161, 0.35);
 font-family: 'Figtree';
-font-size: 18px;
+font-size: 17px;
 font-style: normal;
 font-weight: 700;
 line-height: 24px;
@@ -1252,20 +1282,20 @@ margin-top: 36px;
         padding: 0px 12px;
     }
     .services_title{
-        font-family: 'Roboto';
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
-line-height: 26px;
-color: #FFA486;
+        color: #FF6835;
+            font-size: 20px;
+            font-family: Roboto;
+            font-weight: 400;
+            line-height: 32px;
 margin-top:80px
     }
     .services_subtitle{
-        font-family: 'Figtree';
-font-size: 18px;
-font-style: normal;
-font-weight: 500;
-line-height: 28px;
+    color: #333333;
+        font-size: 18px;
+        font-family: Figtree;
+        font-weight: 500;
+        text-transform: uppercase;
+        line-height: 28px;
 margin-top:12px
     }
     .service_img{
@@ -1288,13 +1318,14 @@ line-height: 24px;
     }
     .service_btn{
         font-family: 'Figtree';
-font-size: 14px;
+font-size: 16px;
 font-style: normal;
 font-weight: 500;
 line-height: 24px;
     }
     #business{
-        padding:0px 12px
+        padding:0px;
+        padding-right: 12px;
     }
     .business_title{
         font-family: 'Figtree';
@@ -1302,8 +1333,9 @@ font-size: 20px;
 font-style: normal;
 font-weight: 600;
 line-height: 32px;
-color: #FFA486;
+color: #FF6835;
 margin-top: 44px;
+padding-right: 100px;
     }
     .business_number{
         font-family: 'Figtree';
@@ -1311,6 +1343,9 @@ font-size: 32px;
 font-style: normal;
 font-weight: 500;
 line-height: 26px;
+    }
+    .business_number{
+        display: none;
     }
     .business_item__title{
         font-family: 'Roboto';
@@ -1321,7 +1356,7 @@ line-height: 26px;
     }
     .business_item__description{
         font-family: 'Roboto';
-font-size: 12px;
+font-size: 14px;
 font-style: normal;
 font-weight: 400;
 line-height: 20px;
@@ -1336,7 +1371,7 @@ font-style: normal;
 font-weight: 600;
 line-height: 32px;
 color: #FF6835;
-margin-top: 80px;
+margin-top: 65px;
     }
     .value_item__title{
         font-family: 'Figtree';
