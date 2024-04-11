@@ -411,6 +411,9 @@ color: #444444;
 .service_btn:hover{
     background-color: #FF6835;
 }
+.suppliers_mobile{
+    display: none;
+}
 
 #business{
     padding: 80px 156px;
@@ -1010,6 +1013,19 @@ margin-bottom: 16px;
     .certificatepage_img{
         width: 62px;
         height: 62px;
+    }
+    .mySwiper2{
+        display: none;
+    }
+    .suppliers_mobile{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 40px;
+    }
+    .supplier_img{
+        width: 105px;
+        height: 53px;
     }
     
     .certificatepage_img__middle{
