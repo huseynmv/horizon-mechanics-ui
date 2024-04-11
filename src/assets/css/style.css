@@ -599,6 +599,7 @@ padding: 0px 270px;
 border: none;
 border-radius: 2px;
 margin-top: 24px;
+width: 100%;
 }
 .certificate_wrapper{
     display: flex;
@@ -1103,6 +1104,9 @@ margin-bottom: 16px;
  }
  .service_bg__image__mobile{
     display: none;
+ }
+ .service_btn{
+    width: 100%;
  }
 @media screen and (max-width: 576px) {
     .certificate_wrapper{
