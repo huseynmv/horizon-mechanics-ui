@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+            integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+            crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+            integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+            crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href='https://fonts.googleapis.com/css?family=Figtree' rel='stylesheet'>
+        <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+        <link rel="stylesheet" href="./assets/css/style.css">
+        <script src="./assets/js/mobile_menu.js"></script>
+    </head>
+</head>
+
+<body>
+    <section id="side_menu">
+        <div class="mobile_menu__close">
+            <img src="./assets/images/x-close.svg" class="menu_close__btn" alt="">
+        </div>
+        <div class="menu_item__wrapper">
+            <a href="./index.html#aboutUs">
+                <p>About us</p>
+                <img src="./assets/images/arrow-narrow-right.svg" class="menu_item__img" alt="">
+            </a>
+
+        </div>
+        <div class="menu_item__wrapper">
+            <a href="./index.html#services">
+                <p>Services</p>
+                <img src="./assets/images/arrow-narrow-right.svg" class="menu_item__img" alt="">
+            </a>
+        </div>
+        <div class="menu_item__wrapper">
+            <a href="./contact.html">
+                <p>Contact us</p>
+                <img src="./assets/images/arrow-narrow-right.svg" class="menu_item__img" alt="">
+            </a>
+        </div>
+
+        <div class="menu_item__wrapper">
+            <a href="./contact.html">
+                <p>Request a Quote</p>
+                <img src="./assets/images/arrow-narrow-right.svg" class="menu_item__img" alt="">
+            </a>
+        </div>
+    </section>
+    <section id="navbar" class="section w-100">
+        <div class="container-fluid px-0">
+            <div class="row">
+                <div class="col-12">
+
+                    <div class="navbar_wrapper d-flex justify-content-between align-items-center">
+                        <!-- <div class="mobile_menu">
+                                <img src="./assets/images/menu_icon.svg" class="mobile_menu" alt="">
+                                
+                                
+                            </div> -->
+
+                        <img src="./assets/images/menu_icon.svg" class="mobile_menu" alt="">
+                        <img src="./assets/images/logo_mobile.svg" class="navbar_mobile__logo" alt="">
+                        <img src="./assets/images/logo_small.svg" class="navbar_desktop__logo" alt="">
+
+                        <div class="navbar d-flex justify-content-between align-items-center gap-60">
+                            <div class="menu_item">
+                                <div class="d-flex align-items-center">
+                                    <a href="./index.html#aboutUs">
+                                        <p class="menu_item__text">About us</p>
+                                    </a>
+                                    <img src="./assets/images/down_icon.svg" alt="">
+                                </div>
+
+                            </div>
+                            <div class="menu_item">
+                                <div class="d-flex align-items-center">
+                                    <p class="menu_item__text">Services</p>
+                                    <img src="./assets/images/down_icon.svg" alt="">
+                                </div>
+                                <div class="submenu">
+                                    <ul>
+                                        <li>Overview</li>
+                                        <li>Spare Parts</li>
+                                        <li>Exchange</li>
+
+                                        <li>AOG</li>
+                                        <li>Repair <br>Management</li>
+
+
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="menu_item">
+                                <div class="d-flex align-items-center">
+                                    <a href="./contact.html">
+                                        <p class="menu_item__text">Contact us</p>
+                                    </a>
+                                    <img src="./assets/images/down_icon.svg" alt="">
+                                </div>
+                                <div class="submenu">
+                                    <ul>
+                                        <a href="#footer">
+                                            <li>Contact us</li>
+                                        </a>
+                                        <a href="./contact.html">
+                                            <li>Request a Quote</li>
+                                        </a>
+                                    </ul>
+                                </div>
+                            </div>
+
+                        </div>
+                        <button class="rfq_button">Send RFQ</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="services">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <p class="contactpage_title">Services</p>
+                </div>
+                <div class="col-12">
+                    <p class="contactpage_subtitle service_page__subtitle">We are working to serve you better with our
+                        services.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <div class="service_type__wrapper">
+                        <div class="service_type">
+                            <p id="spareParts" class="active" onclick="toggleRows('spareParts')">Spare Parts</p>
+                        </div>
+                        <div class="service_type">
+                            <p id="allServices" class="inactive" onclick="toggleRows('allServices')">All Services</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3 spare_parts">
+                <div class="col-sm-12 col-md-4 col-lg-4 px-0 px-sm-2">
+                    <div class="sp_service__wrappper">
+                        <img src="./assets/images/sp_service_img.svg" class="sp_image" alt="">
+                        <div class="spare_service__info">
+                            <p>Rotables</p>
+                            <img src="./assets/images/arrow-up-right.svg" class="sp_icon" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 px-0 px-sm-2">
+                    <div class="sp_service__wrappper">
+                        <img src="./assets/images/sp_image_2.svg" class="sp_image" alt="">
+                        <div class="spare_service__info">
+                            <p>Consumables</p>
+                            <img src="./assets/images/arrow-up-right.svg" class="sp_icon" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 px-0 px-sm-2">
+                    <div class="sp_service__wrappper">
+                        <img src="./assets/images/sp_image_3.svg" class="sp_image" alt="">
+                        <div class="spare_service__info">
+                            <p>Interiors</p>
+                            <img src="./assets/images/arrow-up-right.svg" class="sp_icon" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 px-0 px-sm-2">
+                    <div class="sp_service__wrappper">
+                        <img src="./assets/images/sp_image_4.svg" class="sp_image" alt="">
+                        <div class="spare_service__info">
+                            <p>Engines / APUs</p>
+                            <img src="./assets/images/arrow-up-right.svg" class="sp_icon" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 px-0 px-sm-2">
+                    <div class="sp_service__wrappper">
+                        <img src="./assets/images/sp_image_5.svg" class="sp_image" alt="">
+                        <div class="spare_service__info">
+                            <p>Support Units Tools</p>
+                            <img src="./assets/images/arrow-up-right.svg" class="sp_icon" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 px-0 px-sm-2">
+                    <div class="sp_service__wrappper">
+                        <img src="./assets/images/sp_image_6.svg" class="sp_image" alt="">
+                        <div class="spare_service__info">
+                            <p>Avionics</p>
+                            <img src="./assets/images/arrow-up-right.svg" class="sp_icon" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-3 all_services">
+                <div class="col-sm-12 col-md-4 col-lg-4 px-0 px-sm-2">
+                    <div class="sp_service__wrappper">
+                        <img src="./assets/images/all_service (2).svg" class="sp_image" alt="">
+                        <div class="spare_service__info">
+                            <p>Repair and Overhaul</p>
+                            <img src="./assets/images/arrow-up-right.svg" class="sp_icon" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 px-0 px-sm-2">
+                    <div class="sp_service__wrappper">
+                        <img src="./assets/images/all_service_2.svg" class="sp_image" alt="">
+                        <div class="spare_service__info">
+                            <p>Exchange</p>
+                            <img src="./assets/images/arrow-up-right.svg" class="sp_icon" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 px-0 px-sm-2">
+                    <div class="sp_service__wrappper">
+                        <img src="./assets/images/all_service_3.svg" class="sp_image" alt="">
+                        <div class="spare_service__info">
+                            <p>Consignment sales</p>
+                            <img src="./assets/images/arrow-up-right.svg" class="sp_icon" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 px-0 px-sm-2">
+                    <div class="sp_service__wrappper">
+                        <img src="./assets/images/all_service_4.svg" class="sp_image" alt="">
+                        <div class="spare_service__info">
+                            <p>Sourcing</p>
+                            <img src="./assets/images/arrow-up-right.svg" class="sp_icon" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 px-0 px-sm-2">
+                    <div class="sp_service__wrappper">
+                        <img src="./assets/images/all_service_5.svg" class="sp_image" alt="">
+                        <div class="spare_service__info">
+                            <p>Component lease</p>
+                            <img src="./assets/images/arrow-up-right.svg" class="sp_icon" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 px-0 px-sm-2">
+                    <div class="sp_service__wrappper">
+                        <img src="./assets/images/all_service_6.svg" class="sp_image" alt="">
+                        <div class="spare_service__info">
+                            <p>Diagnostics</p>
+                            <img src="./assets/images/arrow-up-right.svg" class="sp_icon" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section id="service_bg">
+        <div class="container-fluid position-relative">
+            <div class="row mt-5">
+                <div class="col-12 px-0">
+                    <img src="./assets/images/service_bg.png" class="service_bg__image" alt="">
+                    <img src="./assets/images/service_bg__mobile.png" class="service_bg__image__mobile" alt="">
+                </div>
+            </div>
+            <div class="row position-absolute service_bg">
+                <div class="col-12">
+                    <p class="service_hero__title">We cover the following areas of services <br>
+                        and spare parts supply</p>
+                    <p class="service_hero__subtitle">Contact us today to learn more about how our proactive and <br>
+                        dynamic
+                        approach to supply services
+                        might benefit your <br>
+                        commercial aviation operations.</p>
+                    <button class="service_hero__btn">Request a Quote</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer" class="section w-100">
+        <div class="container-fluid">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-12 col-md-4 footer_logo__desktop">
+                    <div class="row">
+
+                        <div class="col-12 pe-5 footer_item footer_logo__desktop">
+                            <img src="./assets/images/footer_logo.svg" class="footer_logo" alt="">
+                            <p style="color: #1E1C20;
+                                                    font-size: 20px;
+                                                    font-family: Figtree;
+                                                    font-weight: 500;
+                                                    line-height: 32px;">We keep you up to date</p>
+                            <div class="email_input__wrapper">
+                                <input type="text" placeholder="Your email address" class="email_input">
+                                <img src="./assets/images/email_icon.svg" class="email_icon" alt="">
+                            </div>
+                            <p class="copyrights">© 2024 Horizons Mechanic. All right reserved</p>
+                            <div class="social_meadia__wrapper">
+                                <p style="color: #262626;
+                                                        font-size: 16px;
+                                                        font-family: Roboto;
+                                                        font-weight: 500;
+                                                        line-height: 24px;">Stay connected</p>
+                                <div class="social_media__icons">
+                                    <img src="./assets/images/linkedin_icon.svg" alt="">
+                                    <img src="./assets/images/mail_icon.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-8">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-12 col-sm-12 footer_item">
+                            <p class="footer_header">
+                                Quick links
+                            </p>
+                            <div class="quick_links">
+                                <a href="./index.html#aboutUs">
+                                    <p>About us</p>
+                                </a>
+                                <p>Business Ethics</p>
+                                <p>Our Values</p>
+                                <p>Partners</p>
+                                <a href="./certificates.html">
+                                    <p>Certificates</p>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-12 col-sm-12 footer_item">
+                            <p class="footer_header">
+                                Services
+                            </p>
+                            <div class="services_links">
+                                <p>Spare parts</p>
+                                <p>Exchange</p>
+                                <p>AOG</p>
+                                <p>Repair Management</p>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-12 col-sm-12 footer_item">
+                            <p class="footer_header">
+                                Contact us
+                            </p>
+                            <div class="contact_links">
+                                <a href="#footer">
+                                    <p>Contact with Us</p>
+                                </a>
+                                <a href="./contact.html">
+                                    <p>Request a quote</p>
+                                </a>
+
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-12 col-sm-12 footer_item footer_logo__mobile">
+                            <div style="display: flex; justify-content: center;">
+                                <img src="./assets/images/footer_logo.svg" class="footer_logo" alt="">
+                            </div>
+                            <p style="color: #1E1C20;
+                                                                            font-size: 20px;
+                                                                            font-family: Figtree;
+                                                                            font-weight: 500;
+                                                                            line-height: 32px;">We keep you up to date
+                            </p>
+                            <div class="email_input__wrapper___mobile">
+                                <input type="text" placeholder="Your email address" class="email_input">
+                                <img src="./assets//images/email_icon.svg" class="email_icon" alt="">
+                            </div>
+                            <div class="social_meadia__wrapper___mobile">
+                                <p style="color: #262626;
+                                                                                font-size: 16px;
+                                                                                font-family: Roboto;
+                                                                                font-weight: 500;
+                                                                                line-height: 24px;">Stay connected</p>
+                                <div class="social_media__icons">
+                                    <img src="./assets/images/linkedin_icon.svg" alt="">
+                                    <img src="./assets/images/mail_icon.svg" alt="">
+                                </div>
+                            </div>
+                            <p class="copyrights">© 2024 Horizons Mechanic. All right reserved</p>
+                            <div class="social_meadia__wrapper">
+                                <p style="color: #262626;
+                                                                                font-size: 16px;
+                                                                                font-family: Roboto;
+                                                                                font-weight: 500;
+                                                                                line-height: 24px;">Stay connected</p>
+                                <div class="social_media__icons">
+                                    <img src="./assets/images/linkedin_icon.svg" alt="">
+                                    <img src="./assets/images/mail_icon.svg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-5 mt-4 footer_item">
+                            <p class="footer_header interested">
+                                Interested in trading with us?
+                            </p>
+                            <p class="mailto">sales@horizonmechanics.com</p>
+                            <div class="contact_wrapper">
+                                <div>
+                                    <p class="contact_item__header">Phone numbers</p>
+                                    <p class="phone_number">(+971)45 613 6000</p>
+                                    <p class="phone_number">(+971)51 233 0032</p>
+                                </div>
+                                <div>
+                                    <p class="contact_item__header">Address</p>
+                                    <p class="address">Business Center1. M Floor. MeydanFZ <br>
+                                        NadAl Sheba, P.O. Box 9305, Dubai, UAE</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <script>
+        function toggleRows(type) {
+            var sparePartsRow = document.querySelector('.spare_parts');
+            var allServicesRow = document.querySelector('.all_services');
+
+            var sparePartsBtn = document.getElementById('spareParts');
+            var allServicesBtn = document.getElementById('allServices');
+
+            if (type === 'spareParts') {
+                sparePartsRow.style.display = 'flex';
+                allServicesRow.style.display = 'none';
+                sparePartsBtn.classList.add('active');
+                allServicesBtn.classList.remove('active');
+                sparePartsBtn.classList.remove('inactive');
+                allServicesBtn.classList.add('inactive');
+            } else if (type === 'allServices') {
+                sparePartsRow.style.display = 'none';
+                allServicesRow.style.display = 'flex';
+                sparePartsBtn.classList.remove('active');
+                allServicesBtn.classList.add('active');
+                sparePartsBtn.classList.add('inactive');
+                allServicesBtn.classList.remove('inactive');
+            }
+        }
+    </script>
+
+</body>
+
+</html>
