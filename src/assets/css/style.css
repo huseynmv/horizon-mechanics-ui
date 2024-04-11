@@ -489,9 +489,7 @@ color: #FF6835;
 #business .row > .row > .row > .business_wrapper :nth-last-child(-n+3) {
     border: none;
 }
-.border-none{
-    border: none;
-}
+
 #values{
     padding: 60px 156px;
 }
@@ -1108,6 +1106,10 @@ margin-bottom: 16px;
  .service_btn{
     width: 100%;
  }
+.card_min__height{
+    min-height: 226px;
+}
+
 @media screen and (max-width: 576px) {
     .certificate_wrapper{
         gap: 12px;
@@ -1123,6 +1125,9 @@ margin-bottom: 16px;
             line-height: 20px !important;
             word-wrap: break-word
     }
+        .border-none {
+            border: none;
+        }
     .service_type__wrapper{
         gap: 0px;
         justify-content: space-around;
