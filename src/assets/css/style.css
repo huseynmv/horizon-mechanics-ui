@@ -863,7 +863,7 @@ margin-bottom: 16px;
                 }
     .checkbox_wrapper{
         display: flex;
-        justify-content: space-between;
+        gap: 30px;
     }
     .send_btn{
         color: white;
@@ -1363,11 +1363,7 @@ margin-bottom: 16px;
             line-height: 18px;
             word-wrap: break-word
     }
-    .input_item {
-            flex: 1 0 33%;
-            margin-top:4px
-            /* Each item takes up 50% of the container width */
-        }
+
         .checkbox_wrapper{
             flex-wrap: wrap
             ;
