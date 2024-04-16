@@ -423,6 +423,7 @@ color: #444444;
     width: 100%;
     padding-left: 100px;
     height: 100%;
+    object-fit: cover;
 }
 .business_item__subtitle{
 color: #FF6835;
@@ -955,7 +956,8 @@ margin-bottom: 16px;
 }
 .certificate-bg-img{
     width: 100%;
-    margin-top:80px
+    margin-top:80px;
+    object-fit: cover;
 }
 /*END CERTIFICATE PAGE */
 .contact_item__header{
